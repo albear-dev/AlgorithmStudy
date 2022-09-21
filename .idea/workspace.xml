@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature : 백준 16236 - 아기상어&#10;&#10;https://www.acmicpc.net/problem/16236">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/DanamicTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/MaxAndMin.java" afterDir="false" />
+    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerStaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/StaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisStaffFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/RoomBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/BasicRoomSkeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/RoomBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/RoomDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/KakaoUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/KakaoUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/NaverUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/NaverUserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/UserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/prototype/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/prototype/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/PetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/EagerInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/LazyHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/LazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/StaticBlockInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/ThreadSafeDoubleCheckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BabyShark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BabyShark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CandidateKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/CandidateKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KakaoChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/KakaoChat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -65,13 +107,65 @@
       <recent name="algorithm.sort.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DanamicTriangle">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.strategy.BubbleSort" />
+  <component name="RunManager" selected="Application.AppMain (3)">
+    <configuration name="AppMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.creational.simplefactory.AppMain" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.sort.*" />
+          <option name="PATTERN" value="designpattern.creational.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.creational.factorymethod.AppMain" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.creational.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.creational.buildereffective.AppMain" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.creational.buildereffective.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.creational.prototype.AppMain" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.creational.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.creational.buildergof.AppMain" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.creational.buildereffective.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,52 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.MaxAndMin" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.strategy.QuickSort" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.sort.SortMain" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DanamicTriangle" />
-        <item itemvalue="Application.MaxAndMin" />
-        <item itemvalue="Application.SortMain" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.AppMain (3)" />
+        <item itemvalue="Application.AppMain (3)" />
+        <item itemvalue="Application.AppMain (2)" />
+        <item itemvalue="Application.AppMain (1)" />
+        <item itemvalue="Application.AppMain" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655734031171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature :  패키지 일부 변경">
+      <created>1663649177108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663649177108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)">
+      <created>1663649202247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663649202247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="feature : 카카오 2019 블라인드 테스트 알고리즘 문제&#10;&#10;https://programmers.co.kr/learn/courses/30/lessons/42890" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : 카카오 2019 블라인드 테스트 알고리즘 문제&#10;&#10;https://programmers.co.kr/learn/courses/30/lessons/42890" />
+    <MESSAGE value="feature :  패키지 일부 변경" />
+    <MESSAGE value="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)" />
   </component>
 </project>
