@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/SoccerStaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/StaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/abstractmethod/TennisStaffFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/RoomBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildereffective/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/BasicRoomSkeleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/RoomBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/buildergof/RoomDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/KakaoUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/KakaoUserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/NaverUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/NaverUserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/factorymethod/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/prototype/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/prototype/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/simplefactory/PetFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/EagerInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/LazyHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/LazyInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/StaticBlockInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/ThreadSafeDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature : 디자인 패턴 일부 추가.">
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/ExchangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -97,6 +62,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.13831258" />
+    <property name="settings.editor.selected.configurable" value="preferences.packagesearch.PackageSearchGeneralConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,20 +76,7 @@
       <recent name="algorithm.sort.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppMain (3)">
-    <configuration name="AppMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creational.simplefactory.AppMain" />
-      <module name="AlgorithmStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpattern.creational.simplefactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AppMain">
     <configuration name="AppMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpattern.creational.factorymethod.AppMain" />
       <module name="AlgorithmStudy" />
@@ -147,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creational.prototype.AppMain" />
+    <configuration name="AppMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modernjava.future.AppMain" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.creational.prototype.*" />
+          <option name="PATTERN" value="modernjava.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +117,11 @@
       </method>
     </configuration>
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creational.buildergof.AppMain" />
+      <option name="MAIN_CLASS_NAME" value="modernjava.future2.AppMain" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.creational.buildereffective.*" />
+          <option name="PATTERN" value="modernjava.future2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppMain" />
+        <item itemvalue="Application.AppMain (4)" />
         <item itemvalue="Application.AppMain (3)" />
         <item itemvalue="Application.AppMain (3)" />
         <item itemvalue="Application.AppMain (2)" />
-        <item itemvalue="Application.AppMain (1)" />
-        <item itemvalue="Application.AppMain" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663649202247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature : 디자인 패턴 일부 추가.">
+      <created>1663741087318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663741087318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +214,11 @@
     <MESSAGE value="feature : 카카오 2019 블라인드 테스트 알고리즘 문제&#10;&#10;https://programmers.co.kr/learn/courses/30/lessons/42890" />
     <MESSAGE value="feature :  패키지 일부 변경" />
     <MESSAGE value="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)" />
+    <MESSAGE value="feature : 디자인 패턴 일부 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : 디자인 패턴 일부 추가." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
