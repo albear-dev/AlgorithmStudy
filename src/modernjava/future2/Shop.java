@@ -21,7 +21,6 @@ public class Shop {
     return String.format("%s:%.2f:%s", name, price, code);
   }
 
-
   public String getName() {
     return this.name;
   }

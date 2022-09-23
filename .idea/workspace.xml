@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature : 디자인 패턴 일부 추가.">
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/ExchangeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Quote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modernjava/future2/Shop.java" afterDir="false" />
+    <list default="true" id="4af0cb78-5db1-4f72-9dc0-d57a426b2dbf" name="Changes" comment="feature : Future 및 Async 활용">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/EuclideanAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/Miro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/TailRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/search/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/search/DFS_Recursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/search/DFS_Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernjava/future2/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/modernjava/future2/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,13 +76,13 @@
       <recent name="algorithm.sort.strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppMain">
-    <configuration name="AppMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creational.factorymethod.AppMain" />
+  <component name="RunManager" selected="Application.Miro">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.search.BFS" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.creational.factorymethod.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.creational.buildereffective.AppMain" />
+    <configuration name="DFS_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.search.DFS_Recursive" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.creational.buildereffective.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjava.future.AppMain" />
+    <configuration name="DFS_Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.search.DFS_Stack" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjava.future.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="modernjava.future2.AppMain" />
+    <configuration name="Miro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Miro" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modernjava.future2.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DanamicTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.DanamicTriangle" />
+    <configuration name="TailRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.TailRecursive" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppMain" />
-        <item itemvalue="Application.AppMain (4)" />
-        <item itemvalue="Application.AppMain (3)" />
-        <item itemvalue="Application.AppMain (3)" />
-        <item itemvalue="Application.AppMain (2)" />
+        <item itemvalue="Application.Miro" />
+        <item itemvalue="Application.BFS" />
+        <item itemvalue="Application.DFS_Stack" />
+        <item itemvalue="Application.DFS_Recursive" />
+        <item itemvalue="Application.TailRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663741087318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feature : Future 및 Async 활용">
+      <created>1663825726751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663825726751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +222,8 @@
     <MESSAGE value="feature :  패키지 일부 변경" />
     <MESSAGE value="feature :  알고리즘 공부 추가 (동적계획법, 최소, 최대값 구하기)" />
     <MESSAGE value="feature : 디자인 패턴 일부 추가." />
-    <option name="LAST_COMMIT_MESSAGE" value="feature : 디자인 패턴 일부 추가." />
+    <MESSAGE value="feature : Future 및 Async 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature : Future 및 Async 활용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
